@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ynthnn - Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <!-- nav section start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Touring<span><i style="color :green;">Pedia</i></span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/paket">Paket</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Others
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/contact">Contact</a></li>
+                  <li><a class="dropdown-item" href="/kupon">Kupon</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- nav section end -->
+    
+    <!-- total kolom bootstrap ada 12 -->
+    <!-- first layout start -->
+    <div class="container-fluid bg-dark text-light" style="height: 100%">
+        <!-- carousel images -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" >
+                <img src="assets/carousel1.jpg" class="d-block w-100" alt="Gunung Gede" style="height: 500px">
+                <div class="carousel-caption">
+                  <h5>Gunung Gede Tour</h5>
+                  <p>Gunung Gede merupakan sebuah gunung api bertipe stratovolcano yang berada di Pulau Jawa, Indonesia. Gunung Gede berada dalam ruang lingkup Taman Nasional Gede Pangrango, yang merupakan salah satu dari lima taman nasional yang pertama kali diumumkan di Indonesia pada tahun 1980.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel2.jpg" class="d-block w-100" alt="Gunung Bromo"  style="height: 500px">
+                <div class="carousel-caption ">
+                  <h5>Bromo Special Tour</h5>
+                  <p>Gunung Bromo atau dalam bahasa Tengger dieja "Brama", juga disebut Kaldera Tengger, adalah sebuah gunung berapi aktif di Jawa Timur, Indonesia</p>
+                </div>
+              </div>
+              <div class="carousel-item" >
+                <img src="assets/carousel3.jpg" class="d-block w-100" alt="Gunung Prau"  style="height: 500px">
+                <div class="carousel-caption">
+                  <h5>Prau Mount Visiting</h5>
+                  <p>Gunung Parahu adalah salah satu gunung di Dataran Tinggi Dieng, Jawa Tengah, Indonesia. Gunung Parahu memiliki ketinggian 2.590 mdpl dan terletak pada koordinat 7°11′13″S 109°55′22″E.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+          <!-- carousel images end -->
+      <div class="container-fluid bg-dark text-light" style="height: 100%">
+          <div class="row text-center align-items-center mt-4">
+            <div class="col-12">
+              <img src="assets/pic.png" width="150px" height="150px"/>
+              <h2 class="mt-2">TouringPedia</h2>
+              <i> Berpengalaman lebih dari <span style="color:coral ;">3 tahun</span> menemani perjalanan touring anda</i>
+            </div>
+          </div>
+          <div class="row text-dark mt-4">
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tour Bersama Saya</h5>
+                  <p class="card-text">Ayo Jelajahi indahnya alam bersama tour kami.</p>
+                  <a href="/contact" class="btn btn-dark d-block">Hubungi Sekarang</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                  50+
+                  <span class="visually-hidden">unread messages</span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Paket Tour Terbaik</h5>
+                  <p class="card-text">Paket tour yang pastinya sangat bersahabat dan lengkap.</p>
+                  <a href="/paket" class="btn btn-dark d-block">Biaya Pemesanan</a>
+                </div>
+                <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                  <span class="visually-hidden">New alerts</span>
+              </div>
+            </div>
+            <div class="col-sm-4 g-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Voucher Tour</h5>
+                  <p class="card-text">Dapatkan promo spesial disini.</p>
+                  <a href="/kupon" class="btn btn-dark d-block">Cek Promo Kamu</a>
+                </div>
+              </div>
+            </div>
+          </div>  
+      </div>
+    </div>
+    <!-- first layout end -->
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
